@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sample Reportdata" max_length="40" name="x_58872_needit_sample_reportdata" type="collection">
+        <element choice="3" default="Mani" label="Auditor" max_length="10" name="auditor" type="string">
+            <choice>
+                <element label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+        <element default="3" label="Audit Freq" max_length="40" name="audit_freq" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
